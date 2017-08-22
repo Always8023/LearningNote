@@ -13,3 +13,5 @@ $ jarsigner -verbose -keystore com.hanwintech.app.dyh.keystore -signedjar com.ha
 同时用真实的应用文件名替换掉unsigned_name.apk。
 这个过程需要一点时间，期间会提示输入keystore的密码。命令会修改apk文件并对其进行签名。
 ### 04.apk已经生成，将它发到你的手机上就可以下载安装了，如果要将它发布到应用商店，那就去应用商店注册开发者账户吧！ 
+
+![Image of Yaktocat](picture1.png)
