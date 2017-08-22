@@ -1,7 +1,7 @@
 ## Ionic项目mac电脑打包流程：
 ### 01.更新/安装node（自带npm）
 ### 02.将npm的源设置为淘宝的源
-$ npm config set registry https://registry.npm.taobao.org --global
+$ npm config set registry https://registry.npm.taobao.org --global  
 $ npm config set disturl https://npm.taobao.org/dist --global
 ### 03.npm安装Ionic CLI和Cordova
 $ npm install -g ionic cordova
