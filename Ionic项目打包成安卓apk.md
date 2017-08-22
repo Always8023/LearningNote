@@ -7,9 +7,9 @@ $ keytool -genkey -v -keystore com.hanwintech.app.dyh.keystore -alias com.hanwin
 ### 02.使用Cordova编译应用。使用build命令编译一个应用的发布版本：
 $ cordova build --release --prod android  
 这个命令会生成一个新的apk文件。此时还未签名。
-### 03. 签名应用文件。现在我们要用之前创建的keystore文件来签名生成的未签名版本的应用。使用如下命令来签名：
+### 03.签名应用文件。现在我们要用之前创建的keystore文件来签名生成的未签名版本的应用。使用如下命令来签名：
 $ jarsigner -verbose -keystore com.hanwintech.app.dyh.keystore -signedjar com.hanwintech.app.dyh.apk D:/Android/projects/DYH_Hybrid/platforms/android/build/outputs/apk/android-release-unsigned.apk com.hanwintech.app.dyh  
 注意：这里请使用keystore生成文件名来替换com.hanwintech.app.dyh.keystore示例名称，
 同时用真实的应用文件名替换掉unsigned_name.apk。
 这个过程需要一点时间，期间会提示输入keystore的密码。命令会修改apk文件并对其进行签名。
-### 04. apk已经生成，将它发到你的手机上就可以下载安装了，如果要将它发布到应用商店，那就去应用商店注册开发者账户吧！  
+### 04.apk已经生成，将它发到你的手机上就可以下载安装了，如果要将它发布到应用商店，那就去应用商店注册开发者账户吧！  
