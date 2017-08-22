@@ -1,4 +1,4 @@
-##Ionic项目打包成安卓apk——编译Android应用（这里以安卓应用为例）
+## Ionic项目打包成安卓apk——编译Android应用（这里以安卓应用为例）
 ### 01.配置应用的签名。使用如下命令来配置你的签名（keystore）：
 $ keytool -genkey -v -keystore com.hanwintech.app.dyh.keystore -alias com.hanwintech.app.dyh -keyalg RSA -keysize 2048 -validity 10000  
 注意：  
