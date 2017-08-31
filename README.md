@@ -1,2 +1,2 @@
-# @Always8023 LearningNote
+# 学习笔记
 LearningNote
